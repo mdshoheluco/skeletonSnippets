@@ -1,0 +1,34 @@
+{
+    "name": "skeletonsnippets",
+    "displayName": "skeletonSnippets",
+    "description": "Simple skeleton snippets generator",
+    "version": "1.0.0",
+    "publisher": "mdshohel",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mdshoheluco/skeletonSnippets"
+    },
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascriprreact",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
